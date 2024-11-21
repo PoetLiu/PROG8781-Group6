@@ -1,3 +1,4 @@
+// Created by Peng Liu
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -31,7 +32,6 @@ function MyNavbar() {
               className="me-2"
               aria-label="Search"
             />
-            <Button className='btn-primary'>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
