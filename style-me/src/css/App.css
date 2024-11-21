@@ -56,6 +56,6 @@ section img {
     min-height: 400px;
 }
 
-section desc {
+section .desc {
     color: rgb(78, 87, 116);
 }
