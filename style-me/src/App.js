@@ -1,6 +1,7 @@
 // Created by Peng Liu
 import './css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "animate.css/animate.compat.css"
 import Home from './Home';
 import DigitalFashion from './DigitalFashion';
 import MyNavbar from './MyNavbar';
@@ -11,7 +12,7 @@ function App() {
   return (
     <Router>
       <MyNavbar></MyNavbar>
-      <main className='container'>
+      <main>
         {/*From react-router v6, Switch is replaced by Routes.*/}
         <Routes>
           <Route path="/" element={<Home />} />

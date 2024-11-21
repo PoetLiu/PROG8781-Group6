@@ -26,3 +26,36 @@ main {
 .me-auto {
     margin-left: auto !important
 }
+
+#df-intro {
+    background-image: url("../images/bg-adidas.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.desc {
+    font-size: 1.5rem;
+}
+
+video {
+    min-width: 300px;
+    max-width: 600px;
+}
+
+section img {
+    height: 100%;
+    width: auto;
+    min-height: 400px;
+}
+
+section desc {
+    color: rgb(78, 87, 116);
+}

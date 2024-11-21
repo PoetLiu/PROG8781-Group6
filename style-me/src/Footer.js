@@ -1,4 +1,4 @@
-// Created by Peng Liu
+// Created by Peng Liu(8903532)
 import React from 'react';
 import Twitter from './images/twitter.svg';
 import Youtube from './images/youtube.svg';
@@ -41,12 +41,10 @@ function Footer() {
 
           <div class="col-md-5 offset-md-1 mb-3">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
+              <h5>GET IN TOUCH</h5>
+              <p>Ask us anything! We’d love to hear from you.</p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
-                <button class="btn btn-primary" type="button">Subscribe</button>
+                <button class="btn btn-primary" type="button">Contact Us</button>
               </div>
             </form>
           </div>
