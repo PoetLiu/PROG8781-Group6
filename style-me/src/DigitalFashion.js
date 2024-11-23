@@ -25,7 +25,7 @@ function DigitalFashion() {
         </div>
       </div>
       <div className='container'>
-        <section classNameName='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
+        <section className='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
           <div className='col-12 col-md-6'>
             <AnimatedOnScroll animationIn='pulse'>
               <h1>Mixed Reality</h1>
@@ -45,14 +45,14 @@ function DigitalFashion() {
             </AnimatedOnScroll>
           </div>
           <div className='col-12 col-md-6 text-center mt-3 mt-md-0'>
-            <video autoPlay muted loop classNameName='rounded'>
+            <video autoPlay muted loop className='rounded'>
               <source src={MixRealiaty} type='video/mp4' />
               Your browser does not support the video tag.
             </video>
           </div>
         </section>
 
-        <section classNameName='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
+        <section className='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
           <div className='col-12 col-md-6 text-center'>
             <img src={DigitalFashionJacket}></img>
           </div>
@@ -75,7 +75,7 @@ function DigitalFashion() {
           </div>
         </section>
 
-        <section classNameName='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
+        <section className='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
           <div className='col-12 col-md-6'>
             <AnimatedOnScroll animationIn='pulse'>
               <h1>Metaverse Fashion Events</h1>
@@ -94,16 +94,16 @@ function DigitalFashion() {
             </AnimatedOnScroll>
           </div>
           <div className='col-12 col-md-6 text-center mt-3 mt-md-0'>
-            <video autoPlay muted loop classNameName='rounded'>
+            <video autoPlay muted loop className='rounded'>
               <source src={MetaverseEvent} type='video/mp4' />
               Your browser does not support the video tag.
             </video>
           </div>
         </section>
 
-        <section classNameName='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
+        <section className='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
           <div className='col-12 col-md-6 text-center'>
-            <video autoPlay muted loop classNameName='rounded'>
+            <video autoPlay muted loop className='rounded'>
               <source src={MetaverseShowRoom} type='video/mp4' />
               Your browser does not support the video tag.
             </video>

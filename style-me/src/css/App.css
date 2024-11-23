@@ -1,61 +1,85 @@
 .logo {
-    max-height: 35px;
-    height: auto;
-    filter: invert(100%); 
+  max-height: 35px;
+  height: auto;
+  filter: invert(100%);
 }
 
-
 .icon {
-    height: 25px;
-    width: auto;
-    color: white;
+  height: 25px;
+  width: auto;
+  color: white;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 footer {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 main {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .me-auto {
-    margin-left: auto !important
+  margin-left: auto !important;
 }
 
 #df-intro {
-    background-image: url("../images/bg-adidas.gif");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    color: white;
-    padding-left: 20px;
+  background-image: url('../images/bg-adidas.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  padding-left: 20px;
 }
 
 .title {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .desc {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 video {
-    min-width: 300px;
-    max-width: 600px;
+  min-width: 300px;
+  max-width: 600px;
 }
 
 section img {
-    height: 100%;
-    width: auto;
-    min-height: 400px;
+  height: 100%;
+  width: auto;
+  min-height: 400px;
 }
 
 section .desc {
-    color: rgb(78, 87, 116);
+  color: rgb(78, 87, 116);
 }
+
+/* Riten Sunilbhai Patel(8938590) added */
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(239, 74, 96);
+}
+
+.nav-link.active {
+  color: rgb(239, 74, 96);
+  font-weight: bold;
+}
+.form-control:focus {
+  border-color: rgb(239, 74, 96);
+}
+.navbar-brand img {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+/* End of Riten Sunilbhai Patel(8938590) css  */
