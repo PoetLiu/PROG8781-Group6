@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "animate.css/animate.compat.css"
 import Home from './Home';
 import DigitalFashion from './DigitalFashion';
+import Blog from './Blog';
 import MyNavbar from './MyNavbar';
 import Footer from './Footer';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/digital-fashion" element={<DigitalFashion />} />
+          <Route path="/blogs" element={<Blog />} />
         </Routes>
       </main>
       <Footer />

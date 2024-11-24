@@ -28,7 +28,7 @@ function MyNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto justify-content-center">
             <Nav.Link href="/Digital-Fashion" className={checkAlive("Digital-Fashion")}>Digital Fashion</Nav.Link>
-            <Nav.Link href="/">Link</Nav.Link>
+            <Nav.Link href="/blogs">Blog</Nav.Link>
             <Nav.Link href="/">Link</Nav.Link>
             <Nav.Link href="/">Link</Nav.Link>
           </Nav>
