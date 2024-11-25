@@ -43,9 +43,11 @@ function MyNavbar() {
             <Nav.Link href='/Blog' className={checkAlive('Blog')}>
               Blog
             </Nav.Link>
-            {/* <Nav.Link href='/'>Blog</Nav.Link> */}
             <Nav.Link href='/Demo' className={checkAlive('Demo')}>
               Demo
+            </Nav.Link>
+            <Nav.Link href='/Contact' className={checkAlive('Contact')}>
+              Contact
             </Nav.Link>
           </Nav>
           <Form className='d-flex'>

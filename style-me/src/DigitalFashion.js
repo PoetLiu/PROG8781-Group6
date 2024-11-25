@@ -12,16 +12,18 @@ function DigitalFashion() {
         id='df-intro'
         className='d-flex justify-content-start align-items-center'
       >
-        <div className='col-12 col-md-5'>
-          <AnimatedOnScroll animationIn='fadeInDownBig'>
-            <p className='title'>A New Way to Experience Digital Fashion</p>
-          </AnimatedOnScroll>
-          <AnimatedOnScroll animationIn='fadeInUp'>
-            <p className='desc'>
-              We are a technology and content provider for digital fashion with
-              end-to-end solutions for designers, brands and metaverses
-            </p>
-          </AnimatedOnScroll>
+        <div className='container'>
+          <div className='col-12 col-md-5'>
+            <AnimatedOnScroll animationIn='fadeInDownBig'>
+              <p className='title'>A New Way to Experience Digital Fashion</p>
+            </AnimatedOnScroll>
+            <AnimatedOnScroll animationIn='fadeInUp'>
+              <p className='desc'>
+                We are a technology and content provider for digital fashion
+                with end-to-end solutions for designers, brands and metaverses
+              </p>
+            </AnimatedOnScroll>
+          </div>
         </div>
       </div>
       <div className='container'>
@@ -54,7 +56,7 @@ function DigitalFashion() {
 
         <section className='mt-5 mb-5 pt-5 pb-5 row align-items-center'>
           <div className='col-12 col-md-6 text-center'>
-            <img src={DigitalFashionJacket}></img>
+            <img src={DigitalFashionJacket} alt='Digital Fashion'></img>
           </div>
           <div className='col-12 col-md-6 mt-3 mt-md-0'>
             <AnimatedOnScroll animationIn='pulse'>

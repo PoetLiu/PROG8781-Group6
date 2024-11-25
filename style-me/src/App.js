@@ -12,6 +12,7 @@ import MyNavbar from './MyNavbar';
 import Footer from './Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import Contact from './Contact';
 /* Riten Sunilbhai Patel(8938590) added Helmet for custom title */
 
 function App() {
@@ -78,6 +79,17 @@ function App() {
                   <title>Blog - Fashion Technology | Style.me</title>
                 </Helmet>
                 <Demo />
+              </>
+            }
+          />
+          <Route
+            path='/Contact'
+            element={
+              <>
+                <Helmet>
+                  <title>Contact | Style.me</title>
+                </Helmet>
+                <Contact />
               </>
             }
           />
