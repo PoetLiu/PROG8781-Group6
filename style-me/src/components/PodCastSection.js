@@ -1,3 +1,5 @@
+// Ceaated By : Harsh Patel
+
 import React from 'react';
 import { FaSpotify, FaYoutube, FaPodcast } from 'react-icons/fa';
 
@@ -25,13 +27,13 @@ const PodcastSection = () => {
             </p>
 
             <div className="social-links mb-5">
-              <a href="style.me" className="me-4 text-white">
+              <a href="https://open.spotify.com/show/4iC8jLgLVFRgaypfgF7n4K" className="me-4 text-white">
                 <FaSpotify size={24} />
               </a>
-              <a href="style.me" className="me-4 text-white">
+              <a href="/blogs" className="me-4 text-white">
                 <FaYoutube size={24} />
               </a>
-              <a href="style.me" className="text-white">
+              <a href="https://podcasts.apple.com/gb/podcast/talking-retail/id1537078328" className="text-white">
                 <FaPodcast size={24} />
               </a>
             </div>
