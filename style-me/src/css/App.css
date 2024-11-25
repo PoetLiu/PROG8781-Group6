@@ -122,3 +122,111 @@ section .desc {
 }
 
 /* End of Riten Sunilbhai Patel(8938590) css  */
+=======
+
+
+/* ################ Blog CSS ######################### */
+
+/* Style for the main blog image */
+.blog-image {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Style for the blog list container */
+.blog-list {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+/* Style for individual blog items */
+.blog-item {
+  display: flex;
+  align-items: start;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-item:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for active blog items */
+.active-blog {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the blog thumbnail images */
+.blog-thumbnail {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+
+#press-coverage {
+  max-height: 50px; 
+  object-fit: contain;
+  width: auto;
+}
+
+
+
+.guest-item p {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-block;
+  color: #fff;
+}
+
+.guest-item p span {
+  font-weight: bold;
+}
+.podcast-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                url('../../public/images/blog/talking-retail_bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .social-links a {
+    transition: opacity 0.3s ease;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    opacity: 1;
+  }
+  
+  .guest-item {
+    transition: transform 0.3s ease;
+    padding: 0.5rem 0;
+  }
+  
+  .guest-item:hover {
+    transform: translateX(10px);
+  }
+  
+  .guest-item h3 {
+    font-weight: 500;
+  }
+  
+  .text-muted {
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
+
+#ebook-image {
+    width: 50%;
+}
+
+/* ################ END ######################### */
