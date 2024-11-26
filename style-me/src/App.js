@@ -10,19 +10,20 @@ import Blog from './Blog';
 import Demo from './Demo';
 import MyNavbar from './MyNavbar';
 import Footer from './Footer';
+import Contact from './Contact';
+import VR from './VR'; // Import the VR component
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import Contact from './Contact';
 /* Riten Sunilbhai Patel(8938590) added Helmet for custom title */
 
 function App() {
   return (
     <Router>
-      <MyNavbar></MyNavbar>
+      <MyNavbar />
       <main className='pt-5'>
-        {/* Riten Sunilbhai Patel(8938590) because of fixed-top navbar, we need to add padding-top*/}
+        {/* Riten Sunilbhai Patel(8938590) because of fixed-top navbar, we need to add padding-top */}
 
-        {/*From react-router v6, Switch is replaced by Routes.*/}
+        {/* From react-router v6, Switch is replaced by Routes */}
         <Routes>
           <Route
             path='/'
@@ -33,7 +34,7 @@ function App() {
                     Style.me | A New Way to Experience Digital Fashion
                   </title>
                 </Helmet>
-                <Home />
+                <DigitalFashion />
               </>
             }
           />
@@ -59,7 +60,6 @@ function App() {
               </>
             }
           />
-
           <Route
             path='/Blog'
             element={
@@ -76,7 +76,7 @@ function App() {
             element={
               <>
                 <Helmet>
-                  <title>Blog - Fashion Technology | Style.me</title>
+                  <title>Demo | Style.me</title>
                 </Helmet>
                 <Demo />
               </>
@@ -90,6 +90,17 @@ function App() {
                   <title>Contact | Style.me</title>
                 </Helmet>
                 <Contact />
+              </>
+            }
+          />
+          <Route
+            path='/VR'
+            element={
+              <>
+                <Helmet>
+                  <title>Virtual Reality | Style.me</title>
+                </Helmet>
+                <VR />
               </>
             }
           />

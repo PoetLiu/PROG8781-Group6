@@ -1,5 +1,5 @@
 // Created by Peng Liu(8903532)
-// Modified by Riten Sunilbhai Patel(8938590)
+// Modified by Riten Sunilbhai Patel(8938590) and [Your Name]
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -43,8 +43,8 @@ function MyNavbar() {
             <Nav.Link href='/Blog' className={checkAlive('Blog')}>
               Blog
             </Nav.Link>
-            <Nav.Link href='/Demo' className={checkAlive('Demo')}>
-              Demo
+            <Nav.Link href='/VR' className={checkAlive('VR')}>
+              Virtual Reality
             </Nav.Link>
             <Nav.Link href='/Contact' className={checkAlive('Contact')}>
               Contact
